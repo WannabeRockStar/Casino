@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<title>Casino</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="logo">
+				<a href="index.html"><img src="img/logo.png" alt=""></a>
+			</div>
+			<form class="header-form" method="POST">
+				<input type="text" placeholder="User Name">
+				<input type="password" placeholder="Password">
+				<input id="sms" type="submit" value="SMS">
+				<input type="submit" value="Log In">
+			</form>
+			<div class="header-btns">
+				<a href="#" class="register">Register</a>
+				<a href="#" class="lang"><img src="img/eng-flag.png" alt="flag">ENG</a>
+			</div>
+		</header>
+		<div class="clear"></div>
+		<nav>
+			<ul class="navbar">
+				<li><a class="active" href="#">sports</a></li>
+				<li><a class="reddish" href="#">poker</a></li>
+				<li><a href="#">live casino</a></li>
+				<li><a href="#">slots</a></li>
+				<li><a href="#">table games</a></li>
+				<li><a href="#">skill games</a></li>
+			</ul>
+		</nav>
+		<main>
+			
+			<div class="tabs">
+				<button style="border: none" class="tab-btn active">balance management</button>
+				<button class="tab-btn">transaction history</button>
+				<button class="tab-btn">account details</button>
+				<button class="tab-btn">access log</button>
+				<button class="tab-btn">promotions</button>
+				<button class="tab-btn">massaging</button>
+			</div>
+			<div class="clear"></div>
+			<div class="tab-content">
+				<div class="tab-header">
+					<div class="content-links">
+						<button class="active ballance-btn">cashier</button>
+						<button class="ballance-btn" id="btnn">deposit</button>
+						<button class="ballance-btn">withdraw</button>
+						<button class="ballance-btn">card management</button>
+					</div>
+				</div>
+
+				<div class="tab-title">
+					<h2 class="title">account info</h2>
+				</div>
+				<table class="info">
+					<tbody>
+						<tr>
+							<td class="info-name">Username:</td>
+							<td class="info-value">username</td>
+						</tr>
+						<tr>
+							<td class="info-name">User Id</td>
+							<td class="info-value">8500</td>
+						</tr>
+						<tr>
+							<td class="info-name">ID Verification:</td>
+							<td class="info-value">verified<div class="green-circle"></div></td>
+						</tr>
+						<tr>
+							<td class="info-name">Comunication Language:</td>
+							<td style="" class="info-value">eng<button class="edit">&#9998; Edit</button></td>
+						</tr>
+						<tr>
+							<td class="info-name">Status:</td>
+							<td class="info-value">registered</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<div class="doc">
+					<div class="doc-title">
+						<h2 class="title">id document</h2>
+						<div class="doc-btns">
+							<button class="doc-btn"><span style="color: #c20100;margin-right:10px;">+</span> add new document</button>
+							<button class="doc-btn"><span style="color: #c20100;margin-right:10px;">?</span>instruction</button>
+						</div>
+					</div>
+					<table class="doc-table">
+						<thead>
+							<tr>
+								<th>country</th>
+								<th>date modified</th>
+								<th>document type</th>
+								<th>document #</th>
+								<th>personal id</th>
+								<th>status</th>
+								<th>document copy</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Georgia</td>
+								<td>31-1-2-15</td>
+								<td>Personal ID</td>
+								<td>999988775555</td>
+								<td>09999877666</td>
+								<td class="verify">VERIFIED</td>
+								<td><a href="#">Update</a></td>
+							</tr>
+							<tr>
+								<td>Georgia</td>
+								<td>31-1-2-15</td>
+								<td>Personal ID</td>
+								<td>999988775555</td>
+								<td>09999877666</td>
+								<td class="verify">VERIFIED</td>
+								<td><a href="#">Update</a></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="contact">
+					<div class="contact-title">
+						<h2 class="title">contact details</h2>
+					</div>
+
+					<table class="contact-body">
+						<tbody>
+							<tr>
+								<td class="contact-para">Email:</td>
+								<td class="contact-data">
+									<form class="email-change" method="POST">
+										<input type="email" name="email" placeholder="New Email Address">
+										<input type="submit" value="OK">
+										<input type="reset" value="Cancel">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="contact-para">User ID:</td>
+								<td class="contact-data-2">
+									<span>+995599538884</span>
+									<button class="edit">&#9998; Edit</button>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+						
+					</div>
+				</div>
+			
+		</main>
+		<footer>
+			<div class="footer-nav">
+				<ul class="foo-navbar">
+					<li><a href="#">news</a></li>
+					<li><a href="#">about us</a></li>
+					<li><a href="#">rules</a></li>
+					<li><a href="#">terms & conditions</a></li>
+					<li><a href="#">security</a></li>
+				</ul>
+				<div class="age">
+					<a href="#">+18</a>
+					<a href="#">+21</a>
+					<a href="#">RGP</a>
+				</div>
+			</div>
+
+			<div class="social">
+				<div class="social-btn">
+					<a href="#"><img src="img/f-btn.png" alt="b"></a>
+					<a href="#"><img src="img/twit-btn.png" alt="b"></a>
+					<a href="#"><img src="img/g-btn.png" alt="b"></a>
+					<a href="#"><img src="img/tube-btn.png" alt="b"></a>
+					<a href="#"><img src="img/b-btn.png" alt="b"></a>
+					<a href="#"><img src="img/ok-btn.png" alt="b"></a>
+				</div>
+				<div class="phone-number">
+					<span>+995 32 <span class="large">2711011</span></span>
+					<span>+995 32 <span class="large">2364360</span></span>
+				</div>
+			</div>
+			<div class="clients">
+				<div class="client-images">
+					<img src="img/paybox.png" alt="paybox-logo">
+					<img src="img/leaf.png" alt="leaf-logo">
+					<img src="img/tbc.png" alt="tbc-logo">
+					<img src="img/ipay.png" alt="ipay-logo">
+					<img src="img/thawte.png" alt="thawte-logo">
+				</div>
+				
+			</div>
+			<div class="desc">
+				<p class="desc-text">
+					Electronic games (Internet) is operated by "Geobet" LTD (license #19-06/072, Permit term until 26.12.2017) 26 May Square #1, Tbilisi Internet Bookmaking is operated by Contrast+"LTD (license #19-05/009, Permit term until 01.02.2017) 26 May Square #1, Tbilisi Hitman and Lara Croft: Tomb Raider are trademarks of Square Enix Ltd. All rights reserved  SHOOT!:© 2012 Rodston Ltd 
+				</p>
+				<p class="desc-text">
+					THE DARK KNIGHT RISES and all related characters and elements are trademarks of and © DC Comics.(s13)
+				</p>
+				<div class="copyright">
+					<p class="copyright-text">&copy; Casino All rights reserved.</p>
+					<div class="created-by">
+						<span class="auth-text">crated by: </span>
+						<img src="img/singular-logo.png" alt="singular">
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script>
+		
+		var btn = document.querySelectorAll(".tab-btn");
+		
+		function reset() {
+			for (var i = 0; i < btn.length; i++) {
+		       btn[i].classList.remove("active");
+		    }
+		}
+
+		for(var i = 0; i < btn.length; i++) {
+			btn[i].addEventListener("click", function() {
+				reset();
+		    	this.classList.add("active");
+			});
+		}
+	
+	</script>
+</body>
+</html>
